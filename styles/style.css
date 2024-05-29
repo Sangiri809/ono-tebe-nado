@@ -24,16 +24,16 @@
   list-style-type: circle;
 }
 
-.header__links-list-item .header__links-list-item_no-bullit {
+.header__links-list-item_nobullit {
   list-style-type: none;
 }
 
 .header__link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .header__link .header__link_active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .header__logo {
@@ -195,15 +195,15 @@
   inset: 0;
 }
 
-.card_type_film {
+.card_film {
   background-image: url("../images/card-lot-01.jpg");
 }
 
-.card_type_book {
+.card_book {
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.card_type_picture {
+.card_picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 
@@ -239,7 +239,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
-  padding: 0 20px;
+  padding: 181px 24px 0;
 }
 
 .about__column {
@@ -295,14 +295,17 @@
 }
 
 .footer__menu-list-item_nobullit {
-  list-style: none;
   text-decoration: none;
 }
 
 .footer__menu-link {
   font-size: 18px;
   line-height: normal;
-  text-underline-position: under;
+  text-decoration: none;
+}
+
+.footer__menu-link-active {
+  text-decoration: underline;
 }
 
 .footer__social-list {
