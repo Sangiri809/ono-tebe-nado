@@ -208,7 +208,7 @@
 }
 
 .card__title {
-  margin: 51px 40px 0px;
+  margin: 51px 40px 0;
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
@@ -315,6 +315,8 @@
 }
 
 .footer__menu-link-active {
+  font-size: 18px;
+  line-height: normal;
   text-decoration: underline;
 }
 

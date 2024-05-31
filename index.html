@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,15 +28,15 @@
         <img
           class="header__logo-item"
           src="./images/logo-black.svg"
-          alt="логотип проекта"
+          alt="Лого проекта"
         />
       </a>
       <address class="address header__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__item" href="tel:+99995555555">+9 999 555 5555</a>
         <br />
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address__item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <br />
-        <p>наб. Принсенграхт 263- <br />265, Амстердам</p>
+        <p class="address__text">наб. Принсенграхт 263- <br />265, Амстердам</p>
       </address>
     </header>
     <main class="main">
@@ -57,63 +56,67 @@
       </section>
       <section class="lots" id="lots">
         <h2 class="lots__heading">Лоты</h2>
-      <ul class="lots__card-list">
-        <li class="card-link">
-          <a href="#film" class="card-link">
-            <article class="card card_film">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                Фильм режиссёра, который бросил киношколу
-              </h3>
-              <p class="card__text">
-                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссёр — Пол Томас
-                Андерсон?
-              </p>
-            </article>
-          </a>
-        </li>
-        <li class="card-link">
-          <a href="#book" class="card-link">
-            <article class="card card_book">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                Книга, где описан один скучный день из жизни рекламного агента
-              </h3>
-              <p class="card__text">
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                с переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на
-                эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                Джеймса Джойса?
-              </p>
-            </article>
-          </a>
-        </li>
-        <li class="card-link">
-          <a href="#picture" class="card-link">
-            <article class="card card_picture">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                Картина, которую повторит даже 5-летний сын маминой подруги
-              </h3>
-              <p class="card__text">
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков… Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?
-              </p>
-            </article>
-          </a>
-        </li>
-      </ul>
-      <a class="lots__look-more-link" href="#more">посмотреть больше</a>
+        <ul class="lots__card-list">
+          <li class="card-link">
+            <a href="#film" class="card-link">
+              <article class="card card_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="card-link">
+            <a href="#book" class="card-link">
+              <article class="card card_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="card-link">
+            <a href="#picture" class="card-link">
+              <article class="card card_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков… Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a class="lots__look-more-link" href="#more">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <img class="about__logo-image" src="images/logo-white.svg" alt="Логотип (ОНО ТЕБЕ НАДО)" />
+            <img 
+              class="about__logo-image"
+              src="./images/logo-white.svg"
+              alt="Лого *Оно тебе надо*"
+            />
           </div>
         </div>
         <div class="about__column about__column_text" id="about">
@@ -165,28 +168,28 @@
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#You-tube">
             <img
-             class="footer__social-list-icon"
-              src="./images/yt.svg"
-              alt="You-tube"
-            />
+                class="footer__social-list-icon"
+                src="./images/yt.svg"
+                alt="Youtube"
+              />
           </a>
         </li>
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#Vk">
             <img
-            class="footer__social-list-icon"
-            src="./images/vk.svg"
-            alt="ВКонтакте"
-          />
+              class="footer__social-list-icon"
+              src="./images/vk.svg"
+              alt="ВКонтакте"
+            />
           </a>
         </li>
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#Pinterest">
             <img
-            class="footer__social-list-icon"
-            src="./images/pinterest.svg"
-            alt="Pinterest"
-          />
+              class="footer__social-list-icon"
+              src="./images/pinterest.svg"
+              alt="Pinterest"
+            />
           </a>
         </li>
       </ul>
