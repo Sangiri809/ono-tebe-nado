@@ -11,7 +11,6 @@
 .header__menu {
   justify-self: start;
   width: 391.48px;
-  height: 22px;
 }
 
 .header__links-list {
@@ -29,11 +28,11 @@
 }
 
 .header__link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-.header__link .header__link_active {
-  text-decoration: underline;
+.header__link-active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -82,7 +81,6 @@
   letter-spacing: 0.3em;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 115px 100px 100px;
   justify-content: space-between;
   gap: 20px;
 }
@@ -152,8 +150,8 @@
   text-transform: uppercase;
   color: #fff;
   width: 256px;
-  height: 51px;
-  border: 1px solid #fff;
+  min-height: 51px;
+  border: 1px solid currentColor;
   z-index: 2;
 }
 
@@ -192,7 +190,6 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  inset: 0;
 }
 
 .card_film {
@@ -311,13 +308,13 @@
 .footer__menu-link {
   font-size: 18px;
   line-height: normal;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footer__menu-link-active {
   font-size: 18px;
   line-height: normal;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer__social-list {
